@@ -1,3 +1,15 @@
+h2{
+    text-align: center;
+color: black;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+h4{
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*headig till here*/
 div.gallery {
     border: 1px solid #ccc;
   }
@@ -6,15 +18,12 @@ div.gallery {
     border: 1px solid #777;
   }
   
+
   div.gallery img {
     width: 100%;
     height: auto;
   }
   
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }
   
   * {
     box-sizing: border-box;
@@ -23,13 +32,13 @@ div.gallery {
   .responsive {
     padding: 0 6px;
     float: left;
-    width: 24.99999%;
+    width: 49.99999%;
   }
   
   @media only screen and (max-width: 700px) {
     .responsive {
       width: 49.99999%;
-      margin: 6px 0;
+      margin: 6px 2px;
     }
   }
   
